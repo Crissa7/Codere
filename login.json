@@ -1,0 +1,37 @@
+[
+  {
+    "user": "test",
+    "password": "test",
+    "expectedError": "ERROR DE INICIO DE SESIÓN"
+  },
+  {
+    "user": "TEST",
+    "password": "TEST",
+    "expectedError": "ERROR DE INICIO DE SESIÓN"
+  },
+  {
+    "user": "123",
+    "password": "123",
+    "expectedError": "ERROR DE INICIO DE SESIÓN"
+  },
+  {
+    "user": "123",
+    "password": "",
+    "expectedError": "LOGIN"
+  },
+  {
+    "user": "",
+    "password": "test",
+    "expectedError": "LOGIN"
+  },
+  {
+    "user": "",
+    "password": "",
+    "expectedError": "LOGIN"
+  },
+  {
+    "user": "!·$%&/()=?¿^*¨Ç;:_",
+    "password": "!·$%&/()=?¿^*¨Ç;:_",
+    "expectedError": "ERROR DE INICIO DE SESIÓN"
+  }
+]
